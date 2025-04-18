@@ -8,7 +8,7 @@ if [[ $version == "" ]]
 then
 	echo "Please, provide a python version (i.e. 3.6.0)"
 else
-	if [[ $version =~ ^[1-3]+\.[0-9]+\.[0-9]+ ]]
+	if [[ $version =~ ^[3]+\.[0-9]+\.[0-9]+ ]]
 	then
 		continue="YES"
 	else
