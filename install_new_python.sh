@@ -151,5 +151,5 @@ then
 	rm -rf $work_folder/$python_name
 	rm $work_folder/$python_name.tgz
 
-	sudo ln -s $work_folder/$version/bin/$(ls $work_folder/$version/bin/ | grep python | grep -v "-" | grep "\." | grep -v "m") /opt/usr/local/bin/python$version
+	sudo ln -s $work_folder/$version/bin/$(ls $work_folder/$version/bin/ | grep python | grep -v "-" | grep "\." | grep -v "m") $HOME/.local/bin/python$version
 fi
